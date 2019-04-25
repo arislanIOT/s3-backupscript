@@ -1,7 +1,7 @@
 #!/bin/bash
 
 ### setting date for backup configuration ###
-
+export PATH=$PATH:/root/.local/bin:/usr/local/cpanel/3rdparty/lib/path-bin:/usr/local/sbin:/sbin:/bin:/usr/sbin:/usr/bin:/root/bin
 NOWDATE=$(date +%Y-%m-%d)
 LASTDATE=$(date +%Y-%m-%d --date="30 days ago")
 
